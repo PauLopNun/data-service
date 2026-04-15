@@ -6,7 +6,12 @@
       "Bash(jar tf *)",
       "Bash(grep -v \".class$\")",
       "Bash(./mvnw dependency:tree)",
-      "Bash(./mvnw verify *)"
+      "Bash(./mvnw verify *)",
+      "Bash(./mvnw test-compile *)",
+      "Bash(java -version)",
+      "Bash(./mvnw --version)",
+      "Bash(xxd /c/Users/pulz/Desktop/demo/src/test/java/com/example/demo/DemoApplicationTests.java)",
+      "Bash(./mvnw clean *)"
     ]
   }
 }
