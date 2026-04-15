@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw test *)",
+      "Bash(./mvnw dependency:tree -Dscope=test)",
+      "Bash(jar tf *)",
+      "Bash(grep -v \".class$\")",
+      "Bash(./mvnw dependency:tree)",
+      "Bash(./mvnw verify *)"
+    ]
+  }
+}
